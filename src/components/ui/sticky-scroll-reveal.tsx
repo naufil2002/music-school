@@ -12,7 +12,7 @@ export const StickyScroll = ({
   }[];
 }) => {
   const [activeCard, setActiveCard] = React.useState(0);
-  const ref = useRef<any>(null);
+  const ref = useRef<HTMLDivElement>(null); // Specify the type here
   const { scrollYProgress } = useScroll({
     container: ref,
     offset: ["start start", "end start"],
@@ -38,6 +38,7 @@ export const StickyScroll = ({
     "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
     "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
   ];
+  
   return (
     <motion.div
       animate={{
