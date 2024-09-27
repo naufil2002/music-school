@@ -5,7 +5,7 @@ import Instructors from "@/components/Instructors";
 import MusicSchoolTestimonials from "@/components/TestimoniaCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import { main } from "framer-motion/client";
+// import { main } from "framer-motion/client";
 
 export default function Home() {
   return (
