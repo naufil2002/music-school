@@ -19,7 +19,7 @@ function FeaturedCourses() {
   );
 
   return (
-    <div className="py-12 h-full bg-gray-900">
+    <div className="p-12 h-full bg-gray-900">
       <div>
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
